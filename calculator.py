@@ -28,5 +28,13 @@ def main():
 		else:
 			print("Unknown operator:", op)
 
+def CircleArea(r):
+    if r >= 0:
+        return 3.14 * r * r
+    else:
+        return "NaN"
+
+
 if __name__ == "__main__":
 	main()
+
